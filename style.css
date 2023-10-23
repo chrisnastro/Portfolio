@@ -1,0 +1,27 @@
+body {
+    background-color: #6fd0f6;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.header {
+    padding: 20px;
+    color: #626262;
+    
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 40px;
+}
+
+header div {
+    padding-top: 15px;
+    margin-right:20px;
+    float: right;
+    font-size: 20px;
+}
+
+.header div ul {
+    list-style-type: none;
+
+}
