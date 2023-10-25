@@ -1,3 +1,9 @@
+* { 
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
 body {
     background-color: #6fd0f6;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -6,6 +12,7 @@ body {
 .header {
     padding: 20px;
     color: #626262;
+    background-color: #1d5466;
     
 }
 
@@ -14,7 +21,7 @@ body {
     font-size: 40px;
 }
 
-header div {
+.header div {
     padding-top: 15px;
     margin-right:20px;
     float: right;
@@ -24,4 +31,28 @@ header div {
 .header div ul {
     list-style-type: none;
 
+}
+
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.sidebar {
+    width: 30px;
+    padding: 10px;
+    border: 2px #1d5466;
+    margin: 0;
+    
+}
+
+.sidebar div h2 {
+    padding-bottom: 40px;
+}
+
+
+
+img {
+    display:block;
+    margin: 0 auto;
 }
