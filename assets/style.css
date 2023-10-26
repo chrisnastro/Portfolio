@@ -10,12 +10,14 @@ body {
 }
 
 .header {
+    
     margin-bottom: 0px;
     border: 5px;
     padding: 20px;
     border-style: solid;
     color: #626262;
     background-color: #dcdedf;
+    
     
 }
 
@@ -50,11 +52,17 @@ body {
     
 }
 
+.main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .sidebar {
+    
     margin-top: 5px;
     margin-left: 10px;
     height: 100%;
-    width: 150px;
+    /* width: 150px; */
     position: absolute;
     left: 0;
     top: 20;
@@ -63,17 +71,20 @@ body {
     color: #1d5466;
     border-right-style: solid;
     border-radius: 5px;
+    flex: 30%;
     
 }
 
 .sidebar div h2 {
+    display: flex;
     padding: 8px;
     font-size: 24px;
-    display: block;
+   
 
 }
 
-.main {
+.content {
+    flex: 70%;
     margin-left: 170px;
     font-size: 18px;
 
@@ -82,4 +93,18 @@ body {
 img {
     display:block;
     margin: 0 auto;
+}
+
+.work {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width: 992px) {
+    .work {
+      flex-direction: column;
+    }
 }
