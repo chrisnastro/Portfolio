@@ -9,42 +9,43 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.header {
-    
-    margin-bottom: 0px;
+header {
+    display: flex;
     border: 5px;
-    padding: 20px;
+    padding: 10px;
+    justify-content: center;
     border-style: solid;
     color: #626262;
     background-color: #dcdedf;
-    
-    
 }
 
-.header h1 {
-    display: inline-block;
+header h1 {
+    display: flex;
     font-size: 40px;
+    padding-left: 15px;
 }
 
-.header div {
-    padding-top: 15px;
-    margin-right:20px;
-    float: right;
+.navbar  {
+        margin-left: 40%;
+}
+
+.navbar a {
+    display: inline-block;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: right;
     font-size: 20px;
 }
 
-.header div ul {
-    list-style-type: none;
 
-}
 
-.header div ul li {
+header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
 .banner img {
-    display: block;
+    display: flex;
     max-width: 100%;
     height: auto;
     border-style: solid;
@@ -52,56 +53,78 @@ body {
     
 }
 
-.main {
+main {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+main h2 {
+    margin-left: 8%;
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+main p {
+    position: relative;
+    margin-left: 22%
+    
+    
+}
+
+.sidebar {
+    flex: 1;
+    padding: 1px;
+    border: 5px #626262;
+    margin: 10px;
+    background-color: #dcdedf;
+}
+
+.sidebar p {
+    text-align: left;
+}
+
+.sidebar a {
+    text-align: left;
+    text-decoration: none;
+}
+
+.content {
+    flex: 4;
+}
+
+.content work {
     display: flex;
     flex-wrap: wrap;
 }
 
-.sidebar {
-    
-    margin-top: 5px;
-    margin-left: 10px;
-    height: 100%;
-    width: 150px;
-    position: absolute;
-    left: 0;
-    top: 20;
-    padding-top: 40px;
-    background-color: #dcdedf;
-    color: #1d5466;
-    border-right-style: solid;
-    border-radius: 5px;
-    flex: 30%;
-    
+footer {
+    padding: 20px;
+    text-align: center;
+
 }
 
-.sidebar div h2 {
-    
-    padding: 8px;
-    font-size: 24px;
+
+content {
    
-
-}
-
-.content {
-    flex: 70%;
-    margin-left: 170px;
-    font-size: 18px;
+    
+    /* margin-left: 170px;
+    font-size: 18px; */
 
 }
 
 img {
-    display:block;
+    display: flex;
     margin: 0 auto;
 }
 
-.work {
+/* .work {
     margin-top: 50px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-}
+} */
 
 @media screen and (max-width: 992px) {
     .work {
