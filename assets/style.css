@@ -54,8 +54,8 @@ header div ul li {
 }
 
 main {
-    display: flex;
-    flex-wrap: wrap;
+    position: relative;
+    
 
 }
 
@@ -73,29 +73,40 @@ main p {
 }
 
 .sidebar {
-    flex: 1;
-    padding: 1px;
+    float: left;
     border: 5px #626262;
-    margin: 10px;
+    border-right-style: solid;
+    /* border-style: solid; */
+    
+    width: 200px;
     background-color: #dcdedf;
 }
 
-.sidebar p {
-    text-align: left;
+
+.sidebar h2 {
+    float: left;
+    
 }
 
-.sidebar a {
-    text-align: left;
-    text-decoration: none;
+.about {
+    margin-bottom: 50px;
 }
 
+.work {
+    margin-bottom: 100px;
+}
+
+.contact {
+    margin-bottom: 200px;
+}
 .content {
+    display: flex;
+    flex-wrap: wrap;
     flex: 4;
 }
 
 .content work {
-    display: flex;
-    flex-wrap: wrap;
+    
 }
 
 footer {
