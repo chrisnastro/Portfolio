@@ -54,7 +54,8 @@ header div ul li {
 }
 
 main {
-    position: relative;
+    display: flex;
+    flex-wrap: wrap;
     
 
 }
@@ -67,61 +68,54 @@ main h2 {
 
 main p {
     position: relative;
-    margin-left: 22%
+    padding-top: 10px;
+    margin-left: 20%;
+    font-size: 20px;
     
     
 }
 
 .sidebar {
     float: left;
+    flex: 1;
     border: 5px #626262;
-    border-right-style: solid;
-    /* border-style: solid; */
-    
+    border-right-style:solid;
     width: 200px;
     background-color: #dcdedf;
 }
 
 
 .sidebar h2 {
-    float: left;
+    text-align: left;
     
 }
 
-.about {
+.aboutside {
     margin-bottom: 50px;
 }
 
-.work {
-    margin-bottom: 100px;
+.worktside {
+    margin-bottom: 20px;
 }
 
-.contact {
+.contactside {
     margin-bottom: 200px;
 }
-.content {
+
+.work {
+    flex: 4;
+    padding: 20px;
     display: flex;
     flex-wrap: wrap;
-    flex: 4;
+    justify-content: center;
 }
 
-.content work {
-    
-}
-
-footer {
-    padding: 20px;
-    text-align: center;
-
-}
-
-
-content {
-   
-    
-    /* margin-left: 170px;
-    font-size: 18px; */
-
+.content {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    padding: 10px;
+    flex: 0 0 400px;
 }
 
 img {
@@ -136,6 +130,12 @@ img {
     flex-wrap: wrap;
     justify-content: space-evenly;
 } */
+
+
+footer {
+    padding: 20px;
+    text-align: center;
+}
 
 @media screen and (max-width: 992px) {
     .work {
