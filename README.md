@@ -1,4 +1,7 @@
 # Portfolio
 
+Chris Nastro's coding portfolio
 
-Banner image used under free license courtesy of Gerd Altmann from Pixabay
+This website showcases the different work and contact information for Chris Nastro.  
+
+Banner image owned by Chris Nastro

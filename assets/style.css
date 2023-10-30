@@ -85,11 +85,24 @@ main p {
     width: 200px;
     height: auto;
     margin-right: 30px;
+    padding-top: 10px;
     background-color: #dcdedf;
-    color: #3f75b1;  
+    color: #3f75b1;
+    
 }
 
-
+.headshot img {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    max-width: 50%;
+    margin: auto;
+    height: auto;
+    object-fit: contain;
+    border: 3px #626262;
+    border-style: solid;
+    border-radius: 14px;
+}
 .sidebar h2 {
     -webkit-text-stroke-color: black;
     -webkit-text-stroke-width: 1px;
