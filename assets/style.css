@@ -53,6 +53,7 @@ header div ul li {
     display: flex;
     max-width: 100%;
     height: auto;
+    border-bottom-width: 5px;
     border-style: solid;
     color: #626262;
 }
@@ -73,8 +74,6 @@ main p {
     padding-top: 10px;
     margin-left: 20%;
     font-size: 20px;
-    
-    
 }
 
 .sidebar {
@@ -87,35 +86,23 @@ main p {
     height: auto;
     margin-right: 30px;
     background-color: #dcdedf;
-    color: #3f75b1;
-    
+    color: #3f75b1;  
 }
 
 
 .sidebar h2 {
-    text-align: left;
     -webkit-text-stroke-color: black;
     -webkit-text-stroke-width: 1px;
-    
+}
+
+.sidebar p {
+    font-size: 16px;
 }
 
 .sidebar a {
     color: #3f75b1;
 }
 
-.aboutside {
-    margin-bottom: 5px;
-}
-
-.workside {
-    margin-bottom: 20px;
-}
-
-
-.abouttext {
-    padding-right: 20px;
-    
-}
 .work {
     flex: 4;
     margin-top: 0px;
@@ -132,11 +119,6 @@ main p {
     margin: 0 auto;
 }
 
-.work header {
-    border-radius: 10px;
-    margin-bottom: 4px;
-}
-
 .maincontent {
     position: relative;
     text-align: center;
@@ -148,7 +130,6 @@ main p {
     background-color: #626262;
     padding: 10px;
     margin-bottom: 5px;
-    /* min-width: 500px; */
 }
 
 .maincontent img {
@@ -180,21 +161,26 @@ main p {
     -webkit-text-stroke-color: black;
     -webkit-text-stroke-width: 2px;
     color: #3f75b1;
+    text-align: left;
 }
-
-
 
 .content img {
     width: 100%;
     height: auto;
 }
 
-
-
 footer {
+    border: 5px #626262;
+    border-top-style: solid;
+    background-color: #dcdedf;
     padding: 20px;
     text-align: center;
 }
+
+.icons {
+    margin: 15px;
+    padding: 15px;
+  }
 
 @media screen and (max-width: 992px) {
     .work {
